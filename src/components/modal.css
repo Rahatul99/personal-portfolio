@@ -1,0 +1,15 @@
+.custom-modal {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(5px) !important;
+    color: whitesmoke;
+  }
+
+
+  .modal-content {
+    background-color: #2d2161;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
