@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    // creator,
     web,
     javascript,
     typescript,
@@ -132,81 +132,81 @@ import {
       title: "HTML",
       icon: html,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - April 2020",
       points: [
-        "In 2018, learning HTML was essential for web development, with beginners starting with basic tags and attributes and progressing to advanced multimedia elements. Resources included online courses, tutorials, and books, as well as online communities where learners could ask for help",
+        "In 2020, learning HTML was essential for web development, with beginners starting with basic tags and attributes and progressing to advanced multimedia elements. Resources included online courses, tutorials, and books, as well as online communities where learners could ask for help",
       ],
     },
     {
       title: "html & CSS",
       icon: css,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Feb 2021",
       points: [
-        "Learning advanced HTML and CSS topics in 2019 was crucial for web developers to keep up with modern design trends and technologies. Popular topics included responsive design, CSS frameworks, and preprocessors, with ample online resources available to help developers improve my skills.",
+        "Learning advanced HTML and CSS topics in 2021 was crucial for web developers to keep up with modern design trends and technologies. Popular topics included responsive design, CSS frameworks, and preprocessors, with ample online resources available to help developers improve my skills.",
       ],
     },
     {
       title: "Javascript",
       icon: javascript,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov 2022 - Dec 2022",
       points: [
-        "In 2020, I learned JavaScript from basic to advanced topics, gaining a valuable skillset for creating dynamic and interactive web applications. This knowledge has given me a competitive edge in the job market and the ability to stay up to date with the latest web development technologies.",
+        "In 2022, I learned JavaScript from basic to advanced topics, gaining a valuable skillset for creating dynamic and interactive web applications. This knowledge has given me a competitive edge in the job market and the ability to stay up to date with the latest web development technologies.",
       ],
     },
     {
       title: "ReactJS",
       icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "March 2023 - April 2023",
       points: [
-        "In 2021, I learned ReactJS from basic to advanced topics, gaining valuable skills in developing dynamic and responsive user interfaces. ReactJS is a popular and widely-used framework, and with this knowledge, I can develop powerful web applications with ease.",
+        "In 2023, I learned ReactJS from basic to advanced topics, gaining valuable skills in developing dynamic and responsive user interfaces. ReactJS is a popular and widely-used framework, and with this knowledge, I can develop powerful web applications with ease.",
       ],
     },
     {
       title: "NodeJS",
       icon: nodejs,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2023 - June 2023",
       points: [
-        "In 2021, I learned NodeJS from basic to advanced topics, gaining valuable skills in building fast, scalable and efficient back-end applications. NodeJS is a popular and widely-used runtime environment, and with this knowledge, I can build robust server-side applications using JavaScript. This skillset has allowed me to expand my web development capabilities and stay competitive in the job market.",
+        "In 2023, I learned NodeJS from basic to advanced topics, gaining valuable skills in building fast, scalable and efficient back-end applications. NodeJS is a popular and widely-used runtime environment, and with this knowledge, I can build robust server-side applications using JavaScript. This skillset has allowed me to expand my web development capabilities and stay competitive in the job market.",
       ],
     },
     {
       title: "mongoDB",
       icon: mongodb,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2023 - June 2023",
       points: [
-        "In 2021, I learned MongoDB, gaining valuable skills in building and managing NoSQL databases for web applications. This skillset expanded my expertise in web development and kept me up to date with modern technologies.",
+        "In 2023, I learned MongoDB, gaining valuable skills in building and managing NoSQL databases for web applications. This skillset expanded my expertise in web development and kept me up to date with modern technologies.",
       ],
     },
     {
       title: "EXPRESS",
       icon: express,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2023 - June 2023",
       points: [
-        "In 2021, I learned ExpressJS, gaining valuable skills in building web applications and APIs using NodeJS. With this knowledge, I can develop server-side applications that are scalable and efficient. This skillset has allowed me to expand my expertise in web development and stay up to date with modern technologies.",
+        "In 2023, I learned ExpressJS, gaining valuable skills in building web applications and APIs using NodeJS. With this knowledge, I can develop server-side applications that are scalable and efficient. This skillset has allowed me to expand my expertise in web development and stay up to date with modern technologies.",
       ],
     },
     {
       title: "MERN",
       icon: mern,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - June 2023",
       points: [
-        "In 2021, I learned MERN development with full-stack topics, including both frontend and backend development. Additionally, I applied my knowledge to create various projects, further honing my skills in web development. This experience has allowed me to become more proficient in the MERN stack and equipped me with valuable skills for future web development projects.",
+        "In 2023, I learned MERN development with full-stack topics, including both frontend and backend development. Additionally, I applied my knowledge to create various projects, further honing my skills in web development. This experience has allowed me to become more proficient in the MERN stack and equipped me with valuable skills for future web development projects.",
       ],
     },
     {
       title: "Web Development",
       icon: mern,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - June 2023",
       points: [
-        "I completed the Programming Hero web development course with an impressive score of 59.75 out of 60, demonstrating my excellent proficiency in web development. This course has equipped me with valuable skills and knowledge, allowing me to expand my expertise in the field and stay up to date with modern technologies.",
+        "I completed the Programming Hero web development course with an impressive score of 57.58 out of 60, demonstrating my excellent proficiency in web development. This course has equipped me with valuable skills and knowledge, allowing me to expand my expertise in the field and stay up to date with modern technologies.",
       ],
     },
   ];
@@ -386,11 +386,11 @@ import {
   ];
 
 const TimeLineData = [
-  { year: 2018, text: "Started my journey" },
-  { year: 2019, text: "Worked with HTML, CSS" },
-  { year: 2020, text: "Founded JavaScript Mastery" },
-  { year: 2021, text: "Start learning React" },
-  { year: 2022, text: "Complete a perfect course" },
+  { year: 2020, text: "Started my journey" },
+  { year: 2021, text: "Worked with HTML, CSS" },
+  { year: 2022, text: "Founded JavaScript Mastery" },
+  { year: 2023, text: "Start learning React" },
+  { year: 2023, text: "Complete a perfect course" },
 ];
 
   

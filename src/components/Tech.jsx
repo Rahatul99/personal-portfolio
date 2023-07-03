@@ -1,105 +1,3 @@
-// import { services } from "../constants";
-// import { Tilt } from "react-tilt";
-// import { fadeIn, textVariant } from "../utils/motion";
-// import { motion } from "framer-motion";
-// import { styles } from "../styles";
-// import { BallCanvas } from "./canvas";
-// import { SectionWrapper } from "../hoc";
-// import { technologies } from "../constants";
-// import MyGitHubCalendar from "./GitHubCalendar";
-
-
-// const ServiceCard = ({ index, title, icon, contents }) => (
-//   <Tilt className='xs:w-[250px] w-full'>
-//     <motion.div
-//       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-//       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-//     >
-//       <div
-//         options={{
-//           max: 45,
-//           scale: 1,
-//           speed: 450,
-//         }}
-//         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-//       >
-//         <img
-//           src={icon}
-//           alt='web-development'
-//           className='w-16 h-16 object-contain'
-//         />
-
-//         <h3 className='text-white text-[20px] font-bold text-center'>
-//           {title}
-//         </h3>
-//         {contents.map((content) => (
-//           <p>{content}</p>
-//         ))}
-
-//       </div>
-//     </motion.div>
-//   </Tilt>
-// );
-
-// const Tech = () => {
-//   return (
-//     <>
-//       <motion.div variants={textVariant()}>
-//         <h2 className={`${styles.sectionHeadText}`}>Technologies</h2>
-//       </motion.div>
-//       <div className='w-full flex mb-5'>
-//         <motion.p
-//           variants={fadeIn("", "", 0.1, 1)}
-//           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-//         >
-//           Following projects showcases my skills and experience through
-//           real-world examples of my work. Each project is briefly described with
-//           links to code repositories and live demos in it. It reflects my
-//           ability to solve complex problems, work with different technologies,
-//           and manage projects effectively.
-//         </motion.p>
-//       </div>
-
-//       <div className='mt-20 mb-20 flex flex-wrap gap-10'>
-//         {services.map((service, index) => (
-//           <ServiceCard key={service.title} index={index} {...service} />
-//         ))}
-//       </div>
-
-
-//       <div className='flex flex-row flex-wrap justify-center gap-10'>
-//         {technologies.map((technology) => (
-//           <div className='w-28 h-28' key={technology.name}>
-//             <BallCanvas icon={technology.icon} />
-//           </div>
-//         ))}
-//       </div>
-
-
-//       {/* -----github calender-------- */}
-//       <motion.div variants={textVariant()} className="mt-20 mb-20">
-//         <h2 className={styles.sectionHeadText}>GitHub Calendar</h2>
-//       </motion.div>
-
-//           {/* <MyGitHubCalendar /> */}
-//           <MyGitHubCalendar />
-//     </>
-//   );
-// };
-
-// export default SectionWrapper(Tech, "");
-
-
-
-
-
-
-
-
-
-
-
-
 import { SectionWrapper } from "../hoc";
 import React from "react";
 import { Tilt } from "react-tilt";
@@ -153,7 +51,7 @@ const Tech = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+          Rahadul Islam is a highly skilled web developer with expertise in various technologies such as ReactJS, NextJS, Node, MongoDB, ExpressJS, HTML, CSS, JavaScript, Bootstrap, Tailwind, Material UI, and DaisyUI. With almost one year of experience in web development, he has created numerous successful projects. His successful portfolio speaks for his skills and creativity. Don't hesitate to visit his website and learn more about his skills and how he can help you achieve your web development goals.
         </motion.p>
       </div>
 
@@ -200,6 +98,3 @@ const Tech = () => {
 };
 
 export default SectionWrapper(Tech, "technologies");
-
-
-
